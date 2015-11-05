@@ -799,6 +799,7 @@ transform: rotate(270deg);
 .btnpop {
     background: #DED7C5;
     position: relative;
+    width: 40vmin;
     padding: 15px 40px;
     border-top: 0px;
     border-left: 0px;
@@ -811,6 +812,13 @@ transform: rotate(270deg);
     -moz-border-radius: 1px;
     border-radius: 1px;
     transition: all 0.1s;
+    left: 50%;
+	-webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 .btnpop:hover { 
   border-bottom: 5px solid #7C6211;
